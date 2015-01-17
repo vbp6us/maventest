@@ -54,7 +54,7 @@ System.out.println(testResult.getStatus());
 
 File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE); 
 String fileName = new SimpleDateFormat("MM-dd-yyyy_kkmmss_SSS").format(new Date());
-FileUtils.copyFile(scrFile, new File("C:\\screens\\screenshot_"+fileName+".jpg")); 
+FileUtils.copyFile(scrFile, new File("C:\\Users\\Walid\\git\\SeleniumMvn\\screenshot_"+fileName+".jpg")); 
 
 }
 }
